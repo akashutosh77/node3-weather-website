@@ -84,7 +84,7 @@ app.get('/help/*', (req, res) => {
         title: '404',
         errorMsg: 'Help article not found',
         name: 'Ashutosh Kumar'
-    })
+    });
 })
 app.get('*', (req, res) => {
     res.render('404', {
